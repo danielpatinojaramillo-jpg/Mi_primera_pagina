@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página web</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Mi primera página web</h1>
+        <hr>
+    </header>
+
+    <main>
+        <section class="quiensoy">
+            <h2>Hola, soy Daniel, estudiante de ADSO</h2>
+            <p>Soy una persona tranquila y familiar. Me gusta aprender cosas nuevas y compartir tiempo con las personas que quiero. Todavía tengo mucho por aprender, pero trato de mejorar y cumplir mis metas poco a poco.</p>
+        </section>
+
+        <section class="numerofav">
+            <label for="favnum">Adivina mi número favorito:</label>
+            <input type="number" id="favnum" placeholder="Ingresa un número">
+            <p id="respuesta"></p>
+        </section>
+
+        <section class="selector">
+            <label for="gustos">Algunas cosas que me gustan:</label>
+            <select id="gustos">
+                <option value="">Seleccione una opción</option>
+                <option value="futbol">Fútbol</option>
+                <option value="leer">Leer</option>
+                <option value="viajar">Viajar</option>
+            </select>
+            <p id="resultado"></p>
+            <img id="imagen" src="" alt="Imagen relacionada con el gusto seleccionado">
+        </section>
+
+        <section class="alerta">
+            <button id="boton" type="button">Presiona aquí</button>
+        </section>
+    </main>
+
+    <hr>
+    <footer>
+        <p>2026 | Mi vida</p>
+    </footer>
+
+    <script src="js/apps.js"></script>
+</body>
+</html>
